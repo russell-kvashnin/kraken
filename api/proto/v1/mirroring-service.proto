@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package v1;
+
+service FileMirroring {
+    rpc Download(MirroringRequest) returns (stream FileChunk) {}
+}
+
+message MirroringRequest {
+    string shortUrl = 1;
+}
+
+message FileChunk {
+    bytes data = 1;
+}

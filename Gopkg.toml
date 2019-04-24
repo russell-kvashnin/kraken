@@ -1,0 +1,56 @@
+[prune]
+  go-tests = true
+  unused-packages = true
+
+
+[[constraint]]
+  name = "go.uber.org/fx"
+  version = "1.8.0"
+
+[[constraint]]
+  name = "go.uber.org/zap"
+  version = "1.9.1"
+
+[[constraint]]
+  name = "github.com/go-chi/chi"
+  version = "3.3.3"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/globalsign/mgo"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/streadway/amqp"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/edsrzf/mmap-go"
+
+[[constraint]]
+  name = "github.com/shirou/gopsutil"
+  version = "2.18.10"
+
+[[constraint]]
+  name = "github.com/spf13/viper"
+  version = "1.2.1"
+
+[[constraint]]
+  name = "github.com/satori/go.uuid"
+  version = "1.2.0"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/dchest/uniuri"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/asaskevich/EventBus"
+
+[[constraint]]
+  name = "github.com/golang/protobuf"
+  branch = "master"
+
+[[constraint]]
+  name = "google.golang.org/grpc"
+  version = "1.18.0"
